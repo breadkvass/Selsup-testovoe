@@ -119,7 +119,7 @@ function App() {
 
   return (
     <div style={{display: "flex", flexDirection: "column"}}>
-      <a style={{marginBottom: 20}} href="https://disk.yandex.ru/d/O4ssrdCGxQnOBA">Ссылка на решение одним файлом</a>
+      <a style={{marginBottom: 20}} href="https://disk.yandex.ru/d/KypAigPWsC7dSQ">Ссылка на решение одним файлом</a>
       <a style={{marginBottom: 40}} href="https://github.com/breadkvass/Selsup-testovoe">Ссылка на репозиторий</a>
       <ParamEditor params={params} model={model}/>
     </div>
