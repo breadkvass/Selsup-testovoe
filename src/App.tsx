@@ -120,7 +120,7 @@ function App() {
   return (
     <div className="container">
       <a href="https://disk.yandex.ru/d/O4ssrdCGxQnOBA">Ссылка на решение одним файлом</a>
-      <a href="https://disk.yandex.ru/d/O4ssrdCGxQnOBA">Ссылка на репозиторий</a>
+      <a href="https://github.com/breadkvass/Selsup-testovoe">Ссылка на репозиторий</a>
       <ParamEditor params={params} model={model}/>
     </div>
   )
