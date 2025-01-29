@@ -71,7 +71,7 @@ class ParamEditor extends React.Component<Props, State> {
     const { paramValues } = this.state;
 
     return (
-      <div>
+      <div style={{border: "1px solid white", padding: 12, borderRadius: 16}}>
         {params.map((param) => (
           <div key={param.id} style={{ marginBottom: "10px" }}>
             <label>{param.name}:</label>
@@ -118,9 +118,9 @@ function App() {
   }
 
   return (
-    <div className="container">
-      <a href="https://disk.yandex.ru/d/O4ssrdCGxQnOBA">Ссылка на решение одним файлом</a>
-      <a href="https://github.com/breadkvass/Selsup-testovoe">Ссылка на репозиторий</a>
+    <div style={{display: "flex", flexDirection: "column"}}>
+      <a style={{marginBottom: 20}} href="https://disk.yandex.ru/d/O4ssrdCGxQnOBA">Ссылка на решение одним файлом</a>
+      <a style={{marginBottom: 40}} href="https://github.com/breadkvass/Selsup-testovoe">Ссылка на репозиторий</a>
       <ParamEditor params={params} model={model}/>
     </div>
   )
